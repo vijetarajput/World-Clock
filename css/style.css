@@ -1,9 +1,55 @@
 body {
-  background-color: cyan;
+  background-color: #f9f7fe;
 }
 .container {
-  text-align: center;
+  background-color: white;
+  max-width: 600px;
+  padding: 60px;
+  margin: 60px auto 60px auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+select {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin: 10px 0 10px 0;
+  padding: 20px;
+  border-bottom: 1px dashed rgb(0, 0, 0, 0.2);
+}
+.city:last-child {
+  border: none;
+}
+h2 {
+  margin: 0;
+}
+.date_div {
+  padding: 0;
+}
+.date {
+  opacity: 0.7;
+}
+.time {
+  font-size: 32px;
+  font-weight: bold;
+  align-items: center;
+}
+.time small {
+  font-size: 0.7rem;
+  vertical-align: middle;
+}
+h1 {
+  font-family: sans-serif;
 }
 footer {
   text-align: center;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6);
 }
