@@ -1,13 +1,12 @@
 body {
   background-color: #f9f7fe;
 }
-.container {
-  background-color: white;
-  max-width: 600px;
-  padding: 60px;
-  margin: 60px auto 60px auto;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border-radius: 10px;
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+}
+h2 {
+  margin: 0;
 }
 select {
   display: block;
@@ -16,6 +15,15 @@ select {
   font-size: 16px;
   border-radius: 4px;
 }
+.container {
+  background-color: white;
+  max-width: 600px;
+  padding: 60px;
+  margin: 60px auto 60px auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
 .city {
   display: flex;
   justify-content: space-between;
@@ -26,9 +34,6 @@ select {
 }
 .city:last-child {
   border: none;
-}
-h2 {
-  margin: 0;
 }
 .date_div {
   padding: 0;
@@ -44,9 +49,6 @@ h2 {
 .time small {
   font-size: 0.7rem;
   vertical-align: middle;
-}
-h1 {
-  font-family: sans-serif;
 }
 footer {
   text-align: center;
