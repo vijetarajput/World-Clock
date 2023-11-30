@@ -79,7 +79,8 @@ function updateNewCity(event)
                 <div class="date">${newDate}</div>
             </div>
             <div class="time">${newTime}</div>
-        </div>`;
+        </div>
+        <a href="/">Back to Home</a>`;
     }
 
 let newCityElement = document.querySelector("#selectCity");
